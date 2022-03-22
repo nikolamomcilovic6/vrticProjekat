@@ -1,0 +1,279 @@
+.vrticForma
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+body
+{
+    background-image: url("/Slike/vrtic1.jpg");
+    display: flex;
+    justify-content: center;
+}
+.glavnaForma
+{
+    background: radial-gradient(circle, rgba(238,174,202,0.8) 0%, rgba(148,187,233,0.8) 100%);
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 25px;
+    margin:25px;  
+    flex-wrap: wrap;
+}
+*
+{
+    font-size: x-large;
+}
+
+.labelaDiv
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divSelect
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pomocnaForma
+{
+    display: flex;
+    flex-direction: column;
+}
+.divDugmici
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Korisnik
+{
+    display: flex;
+    width: 50%; 
+    flex-wrap: wrap;  
+}
+.Administrator
+{
+    width: 50%;   
+    display: flex;
+    flex-wrap: wrap;
+}
+.vrtic
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.divPrikazTabele
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width:700px){
+    .divPrikazTabele{
+        flex-direction: column;
+    }
+}
+.divUnos
+{
+    flex-shrink: 0 1 auto;
+    flex-grow: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center ;
+    flex-wrap: wrap;
+    
+}
+table,tr,th, td{
+    border: 1px solid black;
+}
+table
+{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+.divTabela
+{
+    flex-shrink: 0 1 auto;
+    flex-grow: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.divLabele
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divPrvi
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.lblAktivnosti
+{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.labVasp
+{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.UpisDete
+{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+.IspisDete
+{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+.IzmeniDete
+{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+.Potvrdi
+{
+    margin: 2px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.PrikaziDecu
+{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.kreirajStatistiku
+{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.divAdministratorF
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.divAktivnosti
+{
+    display: flex;
+    flex-direction: row;
+}
+.divAdministrator
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.naslov
+{
+    color: rgb(255, 255, 255);
+}
+.divGrafik
+{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80px;
+    height: 201px;
+    border: 1px solid black;
+}
+.unutrasnjiDiv
+{
+    width: 80px;
+    height: 3px;
+    background-color: aqua;
+}
+.divStatistika
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divGr
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.asktivnostDiv
+{
+    margin-right: 20px;
+}
+.txbIme
+{
+   width: 100%;
+}
+.txbPrezime
+{
+   width: 100%;
+}
+.txbBroj
+{
+   width: 100%;
+}
+.txbJMBG
+{
+   width: 100%;
+}
+.tabela
+{
+    width: 100%;
+}
+
+.txbImeV
+{
+   width: 100%;
+}
+.txbPrezimeV
+{
+   width: 100%;
+}
+.txbJMBGV
+{
+   width: 100%;
+}
+.selectAktivnost
+{
+    width: 50%;
+}
